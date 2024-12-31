@@ -7,7 +7,7 @@ import numpy as np
 import pickle
 
 # Load the trained model 
-model = pickle.load(open('D:/Rups/Jupyter Notebook/model.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 
 # Set up the Streamlit app
 st.title("🏥 Heart Disease Prediction App")
