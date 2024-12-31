@@ -4,10 +4,10 @@ st.set_page_config(
      page_icon="❤"
 )       
 import numpy as np
-import pickle
+import cloudpickle
 
 # Load the trained model 
-model = pickle.load(open('model.pkl', 'rb'))
+model = cloudpickle.load(open('model.pkl', 'rb'))
 
 # Set up the Streamlit app
 st.title("🏥 Heart Disease Prediction App")
