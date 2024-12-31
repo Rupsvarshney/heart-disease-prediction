@@ -4,12 +4,9 @@ st.set_page_config(
      page_icon="❤"
 )       
 import numpy as np
-from sklearn._loss._loss import CyHalfBinomialLoss
-import cloudpickle
+import pickle                                                            
 
-# Load the trained model
-with open('model.pkl', 'rb') as file:
-    model = cloudpickle.load(file)
+ model = pickle.load(open('model.pkl', 'rb'))     
 
 # Set up the Streamlit app
 st.title("🏥 Heart Disease Prediction App")
