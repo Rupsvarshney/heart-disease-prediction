@@ -43,3 +43,6 @@ The dataset has 14 attributes:
 # I hope you like my minor project 
 - Here is the link of my deployment project
 [Heart Disease Prediction App](https://heart-disease-prediction-rups.streamlit.app)
+
+# Feel free to reach out if you have any questions or suggestions!
+Contact - Vrupanshivarshney@gmail.com
